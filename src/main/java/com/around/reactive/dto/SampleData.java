@@ -164,4 +164,29 @@ public class SampleData {
                     Tuples.of(21, 0), Tuples.of(22, 1), Tuples.of(23, 0), Tuples.of(24, 0)
             );
 
+    public static final List<Book2> books =
+            Arrays.asList(
+                    new Book2("Advance Java", "Tom",
+                            "Tom-boy", 25000, 100),
+                    new Book2("Advance Python", "Grace",
+                            "Grace-girl", 22000, 150),
+                    new Book2("Advance Reactor", "Smith",
+                            "David-boy", 35000, 200),
+                    new Book2("Getting started Java", "Tom",
+                            "Tom-boy", 32000, 230),
+                    new Book2("Advance Kotlin", "Kevin",
+                            "Kevin-boy", 32000, 250),
+                    new Book2("Advance Javascript", "Mike",
+                            "Tom-boy", 32000, 320),
+                    new Book2("Getting started Kotlin", "Kevin",
+                            "Kevin-boy", 32000, 150),
+                    new Book2("Getting started Python", "Grace",
+                            "Grace-girl", 32000, 200),
+                    new Book2("Getting started Reactor", "Smith",
+                            null, 32000, 250),
+                    new Book2("Getting started Javascript", "Mike",
+                            "David-boy", 32000, 330)
+            );
+
+
 }
