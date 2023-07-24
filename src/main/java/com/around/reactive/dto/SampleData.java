@@ -188,5 +188,9 @@ public class SampleData {
                             "David-boy", 32000, 330)
             );
 
+    public static final List<Integer> monthlyBookSales2021 =
+            Arrays.asList(2_500_000, 3_200_000, 2_300_000, 4_500_000,
+                    6_500_000, 5_500_000, 3_100_000, 2_000_000,
+                    2_800_000, 4_100_000, 6_200_000, 4_200_000);
 
 }
