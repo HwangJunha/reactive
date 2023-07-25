@@ -1,4 +1,4 @@
-package com.around.reactive.dto;
+package part2.dto;
 
 
 import lombok.AllArgsConstructor;

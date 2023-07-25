@@ -1,8 +1,8 @@
-package com.around.reactive.example14;
+package part2.example14;
 
-import com.around.reactive.dto.Book;
-import com.around.reactive.dto.Book2;
-import com.around.reactive.dto.SampleData;
+import part2.dto.Book;
+import part2.dto.Book2;
+import part2.dto.SampleData;
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -11,7 +11,6 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.IllegalFormatException;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.zip.DataFormatException;
 

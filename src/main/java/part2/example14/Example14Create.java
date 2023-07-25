@@ -1,8 +1,8 @@
-package com.around.reactive.example14;
+package part2.example14;
 
-import com.around.reactive.dto.CryptoCurrencyPriceEmitter;
-import com.around.reactive.dto.CryptoCurrencyPriceListener;
-import com.around.reactive.dto.SampleData;
+import part2.dto.CryptoCurrencyPriceEmitter;
+import part2.dto.CryptoCurrencyPriceListener;
+import part2.dto.SampleData;
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Subscription;
 import reactor.core.publisher.BaseSubscriber;

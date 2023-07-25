@@ -1,4 +1,4 @@
-package com.around.reactive;
+package part2;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

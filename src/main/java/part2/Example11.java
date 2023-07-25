@@ -1,4 +1,4 @@
-package com.around.reactive;
+package part2;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 import reactor.util.context.Context;
 
-import com.around.reactive.dto.Book;
+import part2.dto.Book;
 
 @Slf4j
 public class Example11 {

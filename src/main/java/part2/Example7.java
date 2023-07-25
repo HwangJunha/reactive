@@ -1,4 +1,4 @@
-package com.around.reactive;
+package part2;
 
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
