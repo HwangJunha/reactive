@@ -17,6 +17,7 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     implementation 'com.jayway.jsonpath:json-path:2.7.0'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
@@ -25,8 +26,9 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
     implementation 'io.projectreactor.addons:reactor-extra:3.4.8'
+    implementation 'org.mapstruct:mapstruct:1.5.1.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.1.Final'
 }
-
 test {
     useJUnitPlatform()
 }
